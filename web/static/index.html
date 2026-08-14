@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local AI Coding Agent</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Marked.js for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div id="app" class="app-layout">
+    
+    <!-- Top Header Bar -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="brand">
+          <span class="brand-icon">⚡</span>
+          <span class="brand-title">Local Coding AI</span>
+          <span class="brand-badge">Local Offline</span>
+        </div>
+        <div class="connection-status" id="connectionStatus">
+          <span class="status-dot online"></span>
+          <span class="status-label">Ollama Connected</span>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="model-selector-wrapper">
+          <label for="modelSelect" class="model-label">Model:</label>
+          <select id="modelSelect" class="model-select" title="Choose local Ollama model">
+            <option value="qwen2.5-coder:7b">qwen2.5-coder:7b</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="toggle-wrapper" title="Prompt before running terminal commands or overwrites">
+          <label class="toggle-label" for="safeModeToggle">Safe Mode</label>
+          <input type="checkbox" id="safeModeToggle" class="toggle-checkbox">
+        </div>
+        <button id="clearChatBtn" class="btn btn-secondary btn-sm" title="Clear conversation history">
+          <span class="btn-icon">🗑️</span> Clear Chat
+        </button>
+        <button id="toggleFileViewerBtn" class="btn btn-secondary btn-sm" title="Toggle file viewer drawer">
+          <span class="btn-icon">📄</span> <span id="fileViewerBtnText">File Viewer</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Body Container -->
+    <div class="app-body">
+      
+      <!-- Left Sidebar: File Tree & Tools -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-header">
+            <h3>Workspace Files</h3>
+            <button id="refreshFilesBtn" class="btn-icon-only" title="Refresh files">🔄</button>
+          </div>
+          <div class="workspace-path" id="workspacePath">Loading workspace...</div>
+          <div class="file-tree-container" id="fileTreeContainer">
+            <div class="loading-spinner-wrapper">
+              <div class="spinner"></div>
+              <span>Scanning project...</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section quick-prompts-section">
+          <div class="sidebar-header">
+            <h3>Quick Actions</h3>
+          </div>
+          <div class="quick-prompts-list">
+            <button class="quick-chip" data-prompt="Analyze the project files, summarize architecture, and suggest improvements.">
+              🔍 Analyze Architecture
+            </button>
+            <button class="quick-chip" data-prompt="Write comprehensive unit tests for this project and run them using run_command.">
+              🧪 Write & Run Tests
+            </button>
+            <button class="quick-chip" data-prompt="Find any potential bugs, performance bottlenecks, or edge cases in our codebase.">
+              🐛 Find Bugs & Fix
+            </button>
+            <button class="quick-chip" data-prompt="Create a clean README.md with setup instructions, features, and run commands.">
+              📝 Generate README
+            </button>
+          </div>
+        </div>
+
+        <div class="sidebar-footer">
+          <div class="agent-stats">
+            <span class="stat-item"><strong id="statTurns">0</strong> turns</span>
+            <span class="stat-divider">•</span>
+            <span class="stat-item"><strong id="statActiveModel">qwen2.5-coder:7b</strong></span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center: Chat & Agent Reasoning Stream -->
+      <main class="chat-main" id="chatMain">
+        <div class="chat-messages" id="chatMessages">
+          
+          <!-- Welcome Intro Message -->
+          <div class="message-card system-welcome-card">
+            <div class="welcome-header">
+              <div class="welcome-avatar">⚡</div>
+              <div class="welcome-title-group">
+                <h2>Autonomous Local Coding Agent</h2>
+                <p>Running 100% locally on your machine with direct file editing, search, and terminal execution.</p>
+              </div>
+            </div>
+            
+            <div class="welcome-capabilities">
+              <div class="cap-card">
+                <span class="cap-icon">📂</span>
+                <h4>Read & Edit Files</h4>
+                <p>Direct surgical code edits and multi-file project scaffolding.</p>
+              </div>
+              <div class="cap-card">
+                <span class="cap-icon">⚙️</span>
+                <h4>Terminal Execution</h4>
+                <p>Runs tests, pip installs, scripts, and build tools automatically.</p>
+              </div>
+              <div class="cap-card">
+                <span class="cap-icon">🔒</span>
+                <h4>100% Private</h4>
+                <p>All data and inference stay inside your computer via Ollama.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Chat Input Bar -->
+        <div class="chat-input-wrapper">
+          <form id="chatForm" class="chat-form">
+            <div class="input-controls-top">
+              <span class="current-file-tag" id="currentFileTag" style="display: none;">
+                <span class="tag-label">Active:</span>
+                <span class="tag-name" id="currentFileName">None</span>
+                <button type="button" class="tag-close" id="clearActiveFileBtn">×</button>
+              </span>
+            </div>
+
+            <div class="input-box-container">
+              <textarea 
+                id="promptInput" 
+                class="prompt-textarea" 
+                placeholder="Ask the coding agent to build a feature, debug a file, create tests, or run commands... (Press Enter to send, Shift+Enter for new line)"
+                rows="2"
+                required
+              ></textarea>
+              
+              <div class="input-actions">
+                <button type="submit" id="sendBtn" class="btn btn-primary btn-send">
+                  <span class="btn-text">Send</span>
+                  <span class="send-icon">➔</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <!-- Right Drawer: File Viewer / Code Editor -->
+      <section class="file-viewer-drawer" id="fileViewerDrawer">
+        <div class="drawer-header">
+          <div class="drawer-title-group">
+            <span class="drawer-icon">📄</span>
+            <span class="drawer-filename" id="drawerFileName">No file selected</span>
+          </div>
+          <div class="drawer-actions">
+            <button id="saveFileBtn" class="btn btn-success btn-xs" style="display:none;" title="Save modifications to disk">
+              💾 Save File
+            </button>
+            <button id="askAboutFileBtn" class="btn btn-secondary btn-xs" style="display:none;" title="Send to chat input">
+              💬 Ask AI
+            </button>
+            <button id="closeDrawerBtn" class="btn-icon-only" title="Close drawer">✕</button>
+          </div>
+        </div>
+
+        <div class="drawer-content">
+          <div id="drawerPlaceholder" class="drawer-placeholder">
+            <span class="empty-icon">📁</span>
+            <p>Click any file in the workspace file tree on the left to inspect or edit its code.</p>
+          </div>
+          <textarea id="drawerCodeEditor" class="drawer-code-editor" style="display:none;" spellcheck="false"></textarea>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
