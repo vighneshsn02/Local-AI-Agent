@@ -1,0 +1,879 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "rich.markdown",
+        "description": "rich.markdown",
+        "isExtraImport": true,
+        "detail": "rich.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "rich.table",
+        "description": "rich.table",
+        "isExtraImport": true,
+        "detail": "rich.table",
+        "documentation": {}
+    },
+    {
+        "label": "Syntax",
+        "importPath": "rich.syntax",
+        "description": "rich.syntax",
+        "isExtraImport": true,
+        "detail": "rich.syntax",
+        "documentation": {}
+    },
+    {
+        "label": "Live",
+        "importPath": "rich.live",
+        "description": "rich.live",
+        "isExtraImport": true,
+        "detail": "rich.live",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Confirm",
+        "importPath": "rich.prompt",
+        "description": "rich.prompt",
+        "isExtraImport": true,
+        "detail": "rich.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryHistory",
+        "importPath": "prompt_toolkit.history",
+        "description": "prompt_toolkit.history",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.history",
+        "documentation": {}
+    },
+    {
+        "label": "AutoSuggestFromHistory",
+        "importPath": "prompt_toolkit.auto_suggest",
+        "description": "prompt_toolkit.auto_suggest",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.auto_suggest",
+        "documentation": {}
+    },
+    {
+        "label": "CodingAgent",
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "isExtraImport": true,
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "isExtraImport": true,
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CodingAgent",
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "isExtraImport": true,
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "isExtraImport": true,
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ToolRegistry",
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "isExtraImport": true,
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "OLLAMA_TOOLS_SCHEMA",
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "isExtraImport": true,
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "ToolResult",
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "isExtraImport": true,
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "OLLAMA_TOOLS_SCHEMA",
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "isExtraImport": true,
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "ToolRegistry",
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "isExtraImport": true,
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaClient",
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "isExtraImport": true,
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCallParser",
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "isExtraImport": true,
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCallParser",
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "isExtraImport": true,
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaClient",
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "isExtraImport": true,
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "AgentMemory",
+        "importPath": "core.memory",
+        "description": "core.memory",
+        "isExtraImport": true,
+        "detail": "core.memory",
+        "documentation": {}
+    },
+    {
+        "label": "AgentMemory",
+        "importPath": "core.memory",
+        "description": "core.memory",
+        "isExtraImport": true,
+        "detail": "core.memory",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "fnmatch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fnmatch",
+        "description": "fnmatch",
+        "detail": "fnmatch",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "queue",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "queue",
+        "description": "queue",
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_from_directory",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "run_interactive_cli",
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "isExtraImport": true,
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "start_server",
+        "importPath": "web.app",
+        "description": "web.app",
+        "isExtraImport": true,
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "print_banner",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def print_banner(agent: CodingAgent):\n    \"\"\"Render welcome header banner.\"\"\"\n    status = agent.get_status()\n    conn_str = \"[bold green]Online (Ollama Connected)[/bold green]\" if status[\"connected\"] else \"[bold red]Offline (Ollama Unreachable)[/bold red]\"\n    safe_str = \"[bold yellow]ON[/bold yellow]\" if status[\"safe_mode\"] else \"[bold green]OFF (Auto-execute)[/bold green]\"\n    banner_text = f\"\"\"[bold cyan]╔══════════════════════════════════════════════════════════════════╗\n║              ⚡ TAMAS AI CODING AGENT (Ollama)                  ║\n╚══════════════════════════════════════════════════════════════════╝[/bold cyan]\n[bold white]Model:[/bold white] [bold magenta]{status['model']}[/bold magenta]  |  [bold white]Ollama:[/bold white] {conn_str}  |  [bold white]Safe Mode:[/bold white] {safe_str}\n[bold white]Workspace:[/bold white] [blue]{status['workspace']}[/blue]",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "print_help",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def print_help():\n    \"\"\"Print available slash commands.\"\"\"\n    table = Table(title=\"Available Slash Commands\", border_style=\"cyan\", show_lines=True)\n    table.add_column(\"Command\", style=\"bold cyan\", width=20)\n    table.add_column(\"Description\", style=\"white\")\n    table.add_row(\"/model\", \"Select or switch the active local Ollama model\")\n    table.add_row(\"/models\", \"List all installed models in Ollama and their sizes\")\n    table.add_row(\"/safe\", \"Toggle safe confirmation mode for shell command execution\")\n    table.add_row(\"/files\", \"Show files and folders in current workspace\")\n    table.add_row(\"/read <path>\", \"Inspect and print the contents of a specific file\")",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "handle_model_switch",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def handle_model_switch(agent: CodingAgent):\n    \"\"\"Interactive model selector.\"\"\"\n    models = agent.llm.list_models()\n    if not models:\n        console.print(\"[bold red]No local models found in Ollama or Ollama is offline.[/bold red]\")\n        return\n    table = Table(title=\"Installed Local Ollama Models\", border_style=\"magenta\")\n    table.add_column(\"#\", style=\"bold yellow\", width=4)\n    table.add_column(\"Model Name\", style=\"bold white\", width=30)\n    table.add_column(\"Size\", style=\"green\", width=12)",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_tool_execution",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def confirm_tool_execution(tool_name: str, args: dict) -> bool:\n    \"\"\"Prompt user for confirmation before executing a potentially destructive tool.\"\"\"\n    console.print(f\"\\n[bold yellow]⚠️ Safe Mode Confirmation Requested:[/bold yellow]\")\n    console.print(f\"Tool: [bold cyan]{tool_name}[/bold cyan]\")\n    for k, v in args.items():\n        console.print(f\"  [dim]{k}:[/dim] {v}\")\n    return Confirm.ask(\"[bold yellow]Allow agent to execute this action?[/bold yellow]\", default=True)\ndef run_interactive_cli(workspace: Optional[str] = None, model: str = \"qwen2.5-coder:7b\", safe: bool = False):\n    \"\"\"Main interactive REPL loop.\"\"\"\n    agent = CodingAgent(workspace_dir=workspace, model_name=model, safe_mode=safe)",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_interactive_cli",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def run_interactive_cli(workspace: Optional[str] = None, model: str = \"qwen2.5-coder:7b\", safe: bool = False):\n    \"\"\"Main interactive REPL loop.\"\"\"\n    agent = CodingAgent(workspace_dir=workspace, model_name=model, safe_mode=safe)\n    print_banner(agent)\n    session = PromptSession(history=InMemoryHistory(), auto_suggest=AutoSuggestFromHistory())\n    while True:\n        try:\n            user_input = session.prompt(\n                f\"\\n👤 [{agent.llm.model}] >>> \"\n            ).strip()",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Local Autonomous Coding AI Agent CLI\")\n    parser.add_argument(\"--model\", \"-m\", default=\"qwen2.5-coder:7b\", help=\"Local Ollama model name (default: qwen2.5-coder:7b)\")\n    parser.add_argument(\"--workspace\", \"-w\", default=\".\", help=\"Target workspace path (default: current directory)\")\n    parser.add_argument(\"--safe\", \"-s\", action=\"store_true\", help=\"Enable safe confirmation mode for commands\")\n    args = parser.parse_args()\n    run_interactive_cli(workspace=args.workspace, model=args.model, safe=args.safe)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "cli.main",
+        "description": "cli.main",
+        "peekOfCode": "console = Console()\ndef print_banner(agent: CodingAgent):\n    \"\"\"Render welcome header banner.\"\"\"\n    status = agent.get_status()\n    conn_str = \"[bold green]Online (Ollama Connected)[/bold green]\" if status[\"connected\"] else \"[bold red]Offline (Ollama Unreachable)[/bold red]\"\n    safe_str = \"[bold yellow]ON[/bold yellow]\" if status[\"safe_mode\"] else \"[bold green]OFF (Auto-execute)[/bold green]\"\n    banner_text = f\"\"\"[bold cyan]╔══════════════════════════════════════════════════════════════════╗\n║              ⚡ TAMAS AI CODING AGENT (Ollama)                  ║\n╚══════════════════════════════════════════════════════════════════╝[/bold cyan]\n[bold white]Model:[/bold white] [bold magenta]{status['model']}[/bold magenta]  |  [bold white]Ollama:[/bold white] {conn_str}  |  [bold white]Safe Mode:[/bold white] {safe_str}",
+        "detail": "cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "kind": 6,
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "peekOfCode": "class AgentEvent:\n    \"\"\"Represents a discrete event in the agent's reasoning/execution loop.\"\"\"\n    def __init__(self, event_type: str, data: Dict[str, Any]):\n        self.type = event_type  # 'token', 'thought', 'tool_start', 'tool_end', 'message', 'error', 'done'\n        self.data = data\n    def to_dict(self) -> Dict[str, Any]:\n        return {\"type\": self.type, \"data\": self.data}\nclass CodingAgent:\n    \"\"\"Autonomous ReAct coding agent powered by local Ollama models.\"\"\"\n    def __init__(",
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "CodingAgent",
+        "kind": 6,
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "peekOfCode": "class CodingAgent:\n    \"\"\"Autonomous ReAct coding agent powered by local Ollama models.\"\"\"\n    def __init__(\n        self,\n        workspace_dir: Optional[str] = None,\n        model_name: str = \"qwen2.5-coder:7b\",\n        ollama_url: str = \"http://127.0.0.1:11434\",\n        safe_mode: bool = False,\n        max_steps: int = 15,\n        system_prompt: str = DEFAULT_SYSTEM_PROMPT",
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "core.agent",
+        "description": "core.agent",
+        "peekOfCode": "DEFAULT_SYSTEM_PROMPT = \"\"\"You are an expert Autonomous AI Software Engineer and Coding Assistant running locally on the user's machine.\nYour purpose is to build, debug, inspect, refactor, and test code autonomously and reliably.\n### Available Tools:\n1. `read_file(path, start_line, end_line)`: Read source code with line numbers. ALWAYS read files before modifying them.\n2. `write_file(path, content)`: Create new files or completely rewrite existing files.\n3. `edit_file(path, search, replace)`: Surgically replace an exact code block in an existing file.\n4. `list_directory(path)`: Inspect directory files and subdirectories.\n5. `search_code(query, path, file_pattern)`: Search for function names, variables, imports, or text across the project.\n6. `run_command(command, cwd, timeout)`: Run terminal commands (e.g. `python script.py`, `pytest`, `npm test`, `git status`).\n### Operational Guidelines:",
+        "detail": "core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaClient",
+        "kind": 6,
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "peekOfCode": "class OllamaClient:\n    \"\"\"Client for communicating with a local Ollama instance.\"\"\"\n    def __init__(self, base_url: str = \"http://127.0.0.1:11434\", default_model: str = \"qwen2.5-coder:7b\"):\n        self.base_url = base_url.rstrip(\"/\")\n        self.model = default_model\n    def is_connected(self) -> bool:\n        \"\"\"Check if local Ollama daemon is reachable.\"\"\"\n        try:\n            r = requests.get(f\"{self.base_url}/api/tags\", timeout=3)\n            return r.status_code == 200",
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCallParser",
+        "kind": 6,
+        "importPath": "core.llm",
+        "description": "core.llm",
+        "peekOfCode": "class ToolCallParser:\n    \"\"\"\n    Parses tool calls from LLM outputs.\n    Supports both native structured tool_calls AND text-based XML/JSON blocks.\n    \"\"\"\n    @staticmethod\n    def parse_native(tool_calls_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:\n        \"\"\"Parses native Ollama tool_calls array.\"\"\"\n        parsed = []\n        for call in tool_calls_data:",
+        "detail": "core.llm",
+        "documentation": {}
+    },
+    {
+        "label": "AgentMemory",
+        "kind": 6,
+        "importPath": "core.memory",
+        "description": "core.memory",
+        "peekOfCode": "class AgentMemory:\n    \"\"\"Manages chat conversation history and token bounds.\"\"\"\n    def __init__(self, system_prompt: str, max_history_turns: int = 30):\n        self.system_prompt = system_prompt\n        self.max_history_turns = max_history_turns\n        self.messages: List[Dict[str, Any]] = []\n    def set_system_prompt(self, new_prompt: str):\n        \"\"\"Update system prompt.\"\"\"\n        self.system_prompt = new_prompt\n    def add_user_message(self, content: str) -> Dict[str, Any]:",
+        "detail": "core.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ToolResult",
+        "kind": 6,
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "peekOfCode": "class ToolResult:\n    def __init__(self, success: bool, output: str, data: Optional[Dict[str, Any]] = None):\n        self.success = success\n        self.output = output\n        self.data = data or {}\n    def to_dict(self) -> Dict[str, Any]:\n        return {\n            \"success\": self.success,\n            \"output\": self.output,\n            \"data\": self.data",
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "ToolRegistry",
+        "kind": 6,
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "peekOfCode": "class ToolRegistry:\n    \"\"\"Registry and execution engine for all agent tools.\"\"\"\n    def __init__(self, workspace_dir: Optional[str] = None):\n        self.workspace_dir = os.path.abspath(workspace_dir or os.getcwd())\n    def _resolve_path(self, path: str) -> str:\n        \"\"\"Resolves relative or absolute path safely within the workspace context.\"\"\"\n        if os.path.isabs(path):\n            return os.path.abspath(path)\n        return os.path.abspath(os.path.join(self.workspace_dir, path))\n    def read_file(self, path: str, start_line: Optional[int] = None, end_line: Optional[int] = None) -> ToolResult:",
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "OLLAMA_TOOLS_SCHEMA",
+        "kind": 5,
+        "importPath": "core.tools",
+        "description": "core.tools",
+        "peekOfCode": "OLLAMA_TOOLS_SCHEMA = [\n    {\n        \"type\": \"function\",\n        \"function\": {\n            \"name\": \"read_file\",\n            \"description\": \"Read contents of a file with line numbers. Use this before modifying any code.\",\n            \"parameters\": {\n                \"type\": \"object\",\n                \"properties\": {\n                    \"path\": {\"type\": \"string\", \"description\": \"Relative or absolute path to the file.\"},",
+        "detail": "core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "TestCodingAgentComponents",
+        "kind": 6,
+        "importPath": "tests.test_agent",
+        "description": "tests.test_agent",
+        "peekOfCode": "class TestCodingAgentComponents(unittest.TestCase):\n    def setUp(self):\n        self.temp_dir = tempfile.TemporaryDirectory()\n        self.registry = ToolRegistry(workspace_dir=self.temp_dir.name)\n    def tearDown(self):\n        self.temp_dir.cleanup()\n    def test_write_and_read_file(self):\n        filename = \"hello.py\"\n        content = \"def greet():\\n    return 'Hello, World!'\\n\"\n        res_write = self.registry.write_file(filename, content)",
+        "detail": "tests.test_agent",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def index():\n    \"\"\"Serve main single-page application.\"\"\"\n    return send_from_directory(app.static_folder, \"index.html\")\n@app.route(\"/api/status\", methods=[\"GET\"])\ndef get_status():\n    \"\"\"Get current agent status and configuration.\"\"\"\n    status = agent.get_status()\n    models = agent.llm.list_models()\n    return jsonify({\n        \"status\": \"ok\",",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_status",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def get_status():\n    \"\"\"Get current agent status and configuration.\"\"\"\n    status = agent.get_status()\n    models = agent.llm.list_models()\n    return jsonify({\n        \"status\": \"ok\",\n        \"agent\": status,\n        \"available_models\": models\n    })\n@app.route(\"/api/models\", methods=[\"GET\"])",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "list_models",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def list_models():\n    \"\"\"List all installed local models.\"\"\"\n    models = agent.llm.list_models()\n    return jsonify({\n        \"current_model\": agent.llm.model,\n        \"models\": models\n    })\n@app.route(\"/api/models/switch\", methods=[\"POST\"])\ndef switch_model():\n    \"\"\"Switch active local model.\"\"\"",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "switch_model",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def switch_model():\n    \"\"\"Switch active local model.\"\"\"\n    data = request.get_json() or {}\n    model_name = data.get(\"model\")\n    if not model_name:\n        return jsonify({\"error\": \"Missing model name\"}), 400\n    agent.set_model(model_name)\n    return jsonify({\n        \"success\": True,\n        \"current_model\": agent.llm.model",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "update_settings",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def update_settings():\n    \"\"\"Update settings like safe mode or workspace directory.\"\"\"\n    data = request.get_json() or {}\n    if \"safe_mode\" in data:\n        agent.set_safe_mode(bool(data[\"safe_mode\"]))\n    if \"workspace\" in data and os.path.isdir(data[\"workspace\"]):\n        agent.workspace_dir = os.path.abspath(data[\"workspace\"])\n        agent.tools.workspace_dir = agent.workspace_dir\n    return jsonify({\"success\": True, \"agent\": agent.get_status()})\n@app.route(\"/api/clear\", methods=[\"POST\"])",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "clear_memory",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def clear_memory():\n    \"\"\"Clear conversation history.\"\"\"\n    agent.memory.clear()\n    return jsonify({\"success\": True, \"message\": \"Conversation memory reset\"})\n@app.route(\"/api/workspace/tree\", methods=[\"GET\"])\ndef get_workspace_tree():\n    \"\"\"Return file tree structure of the workspace.\"\"\"\n    workspace = agent.workspace_dir\n    ignored = {\".git\", \"__pycache__\", \".venv\", \"venv\", \"node_modules\", \".pytest_cache\", \".gemini\", \".idea\", \".vscode\"}\n    def build_tree(path: str, max_depth: int = 4, current_depth: int = 0) -> Dict[str, Any]:",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_workspace_tree",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def get_workspace_tree():\n    \"\"\"Return file tree structure of the workspace.\"\"\"\n    workspace = agent.workspace_dir\n    ignored = {\".git\", \"__pycache__\", \".venv\", \"venv\", \"node_modules\", \".pytest_cache\", \".gemini\", \".idea\", \".vscode\"}\n    def build_tree(path: str, max_depth: int = 4, current_depth: int = 0) -> Dict[str, Any]:\n        if current_depth > max_depth:\n            return {\"name\": os.path.basename(path), \"type\": \"directory\", \"children\": []}\n        name = os.path.basename(path) or path\n        if os.path.isdir(path):\n            children = []",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_content",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def get_file_content():\n    \"\"\"Fetch content of a file in the workspace.\"\"\"\n    file_path = request.args.get(\"path\")\n    if not file_path:\n        return jsonify({\"error\": \"Missing file path\"}), 400\n    full_path = os.path.abspath(os.path.join(agent.workspace_dir, file_path))\n    if not os.path.exists(full_path) or os.path.isdir(full_path):\n        return jsonify({\"error\": \"File does not exist or is a directory\"}), 404\n    try:\n        with open(full_path, \"r\", encoding=\"utf-8\", errors=\"replace\") as f:",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "save_file",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def save_file():\n    \"\"\"Save content to a workspace file.\"\"\"\n    data = request.get_json() or {}\n    file_path = data.get(\"path\")\n    content = data.get(\"content\")\n    if not file_path or content is None:\n        return jsonify({\"error\": \"Missing path or content\"}), 400\n    res = agent.tools.write_file(file_path, content)\n    return jsonify(res.to_dict())\n@app.route(\"/api/terminal/exec\", methods=[\"POST\"])",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "exec_terminal",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def exec_terminal():\n    \"\"\"Execute a manual terminal command in the workspace.\"\"\"\n    data = request.get_json() or {}\n    command = data.get(\"command\", \"\")\n    if not command:\n        return jsonify({\"error\": \"Missing command\"}), 400\n    res = agent.tools.run_command(command)\n    return jsonify(res.to_dict())\n@app.route(\"/api/chat/stream\", methods=[\"POST\"])\ndef chat_stream():",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "chat_stream",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def chat_stream():\n    \"\"\"\n    Stream agent execution events over Server-Sent Events (SSE).\n    \"\"\"\n    data = request.get_json() or {}\n    prompt = data.get(\"prompt\", \"\").strip()\n    if not prompt:\n        return jsonify({\"error\": \"Prompt cannot be empty\"}), 400\n    def event_stream():\n        try:",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "start_server",
+        "kind": 2,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "def start_server(port: int = 5050, host: str = \"127.0.0.1\", debug: bool = False):\n    \"\"\"Start the Flask Web App.\"\"\"\n    print(f\"\\n=======================================================\")\n    print(f\"  ⚡ Local Coding AI Agent Web UI running at:\")\n    print(f\"  👉 http://{host}:{port}\")\n    print(f\"=======================================================\\n\")\n    app.run(host=host, port=port, debug=debug, threaded=True)\nif __name__ == \"__main__\":\n    start_server(port=5050)",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "app = Flask(__name__, static_folder=\"static\", template_folder=\"static\")\nCORS(app)\n# Global Agent Instance\nWORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), \"..\"))\nagent = CodingAgent(workspace_dir=WORKSPACE_ROOT, model_name=\"qwen2.5-coder:7b\", safe_mode=False)\n@app.route(\"/\")\ndef index():\n    \"\"\"Serve main single-page application.\"\"\"\n    return send_from_directory(app.static_folder, \"index.html\")\n@app.route(\"/api/status\", methods=[\"GET\"])",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "WORKSPACE_ROOT",
+        "kind": 5,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "WORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), \"..\"))\nagent = CodingAgent(workspace_dir=WORKSPACE_ROOT, model_name=\"qwen2.5-coder:7b\", safe_mode=False)\n@app.route(\"/\")\ndef index():\n    \"\"\"Serve main single-page application.\"\"\"\n    return send_from_directory(app.static_folder, \"index.html\")\n@app.route(\"/api/status\", methods=[\"GET\"])\ndef get_status():\n    \"\"\"Get current agent status and configuration.\"\"\"\n    status = agent.get_status()",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "web.app",
+        "description": "web.app",
+        "peekOfCode": "agent = CodingAgent(workspace_dir=WORKSPACE_ROOT, model_name=\"qwen2.5-coder:7b\", safe_mode=False)\n@app.route(\"/\")\ndef index():\n    \"\"\"Serve main single-page application.\"\"\"\n    return send_from_directory(app.static_folder, \"index.html\")\n@app.route(\"/api/status\", methods=[\"GET\"])\ndef get_status():\n    \"\"\"Get current agent status and configuration.\"\"\"\n    status = agent.get_status()\n    models = agent.llm.list_models()",
+        "detail": "web.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        description=\"Local Autonomous Coding AI Agent powered by Ollama\",\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\nExamples:\n  python main.py cli                    # Launch interactive Rich Terminal CLI\n  python main.py cli --model llama3.2:3b # Launch CLI with specific model\n  python main.py web                    # Launch Modern Web UI at http://127.0.0.1:5050\n  python main.py web --port 8080        # Launch Web UI on custom port",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "fibonacci",
+        "kind": 2,
+        "importPath": "math_utils",
+        "description": "math_utils",
+        "peekOfCode": "def fibonacci(n):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b",
+        "detail": "math_utils",
+        "documentation": {}
+    }
+]

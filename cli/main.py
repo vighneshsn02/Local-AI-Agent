@@ -36,7 +36,7 @@ def print_banner(agent: CodingAgent):
     safe_str = "[bold yellow]ON[/bold yellow]" if status["safe_mode"] else "[bold green]OFF (Auto-execute)[/bold green]"
 
     banner_text = f"""[bold cyan]╔══════════════════════════════════════════════════════════════════╗
-║              ⚡ LOCAL AI CODING AGENT (Ollama)                  ║
+║              ⚡ TAMAS AI CODING AGENT (Ollama)                  ║
 ╚══════════════════════════════════════════════════════════════════╝[/bold cyan]
 [bold white]Model:[/bold white] [bold magenta]{status['model']}[/bold magenta]  |  [bold white]Ollama:[/bold white] {conn_str}  |  [bold white]Safe Mode:[/bold white] {safe_str}
 [bold white]Workspace:[/bold white] [blue]{status['workspace']}[/blue]
