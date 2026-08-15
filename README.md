@@ -71,7 +71,7 @@ Inside the interactive terminal CLI, you can use the following commands:
 ## 🏗️ Architecture
 
 ```
-D:/adityanaik/
+D:/vighneshnaik/
 ├── core/
 │   ├── agent.py          # Multi-turn ReAct reasoning loop & streaming events
 │   ├── llm.py            # Ollama API client & dual-mode tool parser
