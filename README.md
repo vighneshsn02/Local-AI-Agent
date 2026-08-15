@@ -1,4 +1,4 @@
-# ⚡ Local AI Coding Agent
+# ⚡ Local AI Coding Agent (TAMAS AI AGENT)
 
 An autonomous, full-featured AI software engineering agent that runs **100% locally on your computer** using **Ollama** models (such as `qwen2.5-coder:7b`, `qwen2.5-coder:3b`, `llama3.2:3b`, `deepseek-coder`, etc.). No external API keys or cloud connections required.
 
